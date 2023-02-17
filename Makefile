@@ -11,6 +11,6 @@ publish:
 	poetry publish --dry-run 
 
 package-install:
-	python3 -m pip install --user dist/*.whl.
+	python3 -m pip install --user dist/*.whl
 
 .PHONY: install brain-games build publish package-install 
