@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Adel Yudina <adelyudina@gmail.com>"]
 readme = "README.md"
@@ -9,6 +9,7 @@ packages = [{include = "brain_games"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 prompt = "^0.4.1"
+random2 = "^1.0.1"
 
 
 [tool.poetry.group.dev.dependencies]

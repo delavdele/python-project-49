@@ -5,7 +5,8 @@ brain-games:
 	poetry run brain-games 
 
 build:
-	 poetry build 
+	rm -f dist/*.whl 
+	poetry build 
 
 publish:
 	poetry publish --dry-run 
