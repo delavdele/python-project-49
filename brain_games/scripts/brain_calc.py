@@ -32,16 +32,15 @@ def main():
     print('What is the result of the expression?')
     success = 0
     for tries in range(0, 3):
-        expression = def calc()
-        result = def calc()
+        expression, result = calc()
         print(f"Question: {expression}")
         answer = prompt.string('Your answer: ')
-        if result == answer:
+        if result == int(answer):
              print('Correct!')
-                 success += 1
+             success += 1
         else:
              print(f'"{answer}" is wrong answer ;(. Correct answer was "{result}".\nLet\'s try again, {name}!')
-                 break
+             break
 
     if success == 3:
         print(f'Congratulations, {name}!')
