@@ -3,7 +3,7 @@ name = "hexlet-code"
 version = "0.1.5"
 description = "Five games - you can play with numbers"
 authors = ["Adel Yudina <adelyudina@gmail.com>"]
-repository = https://github.com/delavdele/python-project-49.git
+repository = "https://github.com/delavdele/python-project-49.git"
 readme = "README.md"
 packages = [{include = "brain_games"}]
 
@@ -23,7 +23,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
-brain-calc = "brain_games.scripts.brain_calc:main"
+brain-calc = "brain_games.scripts.brain_calc:start"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"

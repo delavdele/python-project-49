@@ -4,7 +4,8 @@ from random import randint
 from random import choice 
 from brain_games.cli import welcome_user
 import prompt
-
+from brain_games.engine import run_game
+from brain_games.games.calc import play
 
 def calc():
     f_num = randint(0, 100)
@@ -44,6 +45,11 @@ def main():
 
     if success == 3:
         print(f'Congratulations, {name}!')
+
+
+def start():
+    run_game(play)
+    
 
      
 if __name__ == '__main__':
