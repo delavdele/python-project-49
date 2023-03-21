@@ -1,6 +1,7 @@
 from random import randint
 import prompt
 
+general_question = 'Answer "yes" if the number is even, otherwise answer "no".' 
 
 def play():
     number = randint(0, 100)
