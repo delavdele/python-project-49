@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-from brain_games.cli import welcome_user
 from random import randint
-from random import randrange
-import prompt
 from brain_games.cli import welcome_user
+import prompt
+from brain_games.engine import run_game
+from brain_games.games.progression import play
+
 
 def progression():
     f_num = randint(1, 10)
@@ -39,6 +40,12 @@ def main():
 
     if success == 3:
         print(f'Congratulations, {name}!')
+
+
+
+def start():
+    run_game(play)
+
  
 if __name__ == '__main__':
     main()
