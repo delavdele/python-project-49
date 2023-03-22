@@ -2,6 +2,7 @@ from random import randint
 from random import choice 
 import prompt
 
+general_question = 'What is the result of the expression?'
 
 def play():
     f_num = randint(0, 100)

@@ -2,6 +2,8 @@ from random import randint
 from random import randrange
 import prompt
 
+general_question = 'What number is missing in the progression?'
+
 def play():
     f_num = randint(1, 10)
     s_num = randint(1, 10)
