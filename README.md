@@ -3,6 +3,12 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/5295f02a1a0db29e1349/maintainability)](https://codeclimate.com/github/delavdele/python-project-49/maintainability)
 
+Tool            | Description
+----------------|----------------------
+poetry          | "Python dependency management and packaging made easy"
+flake8          | "Your Tool For Style Guide Enforcement"
+Code Climate    | "Automated code review and quality analytics"
+
 [![asciicast](https://asciinema.org/a/v2AFHg9peLM3SMWXYdoVot7NO.svg)](https://asciinema.org/a/v2AFHg9peLM3SMWXYdoVot7NO)
 
 [![asciicast](https://asciinema.org/a/YyBHGp9elV9gRRdnAWKUYMnXx.svg)](https://asciinema.org/a/YyBHGp9elV9gRRdnAWKUYMnXx)
