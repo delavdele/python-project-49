@@ -1,6 +1,9 @@
 from random import randint
 
-general_question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+general_question = (
+    'Answer "yes" if given number is prime. '
+    'Otherwise answer "no".'
+)
 
 
 def play():

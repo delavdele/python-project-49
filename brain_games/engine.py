@@ -15,7 +15,9 @@ def run_game(game):
             print('Correct!')
             success += 1
         else:
-            print(f'"{user_answer}" is wrong answer ;(. Correct answer was "{answer}".\nLet\'s try again, {name}!')
+            print(f'"{user_answer}" is wrong answer ;(. '
+                  'Correct answer was "{answer}".\n'
+                  'Let\'s try again, {name}!')
             break
 
     if success == 3:
