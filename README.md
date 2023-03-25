@@ -3,7 +3,38 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/5295f02a1a0db29e1349/maintainability)](https://codeclimate.com/github/delavdele/python-project-49/maintainability)
 
-Tool            | Description
+### Description 
+This project containts several terminal-based games in which user is presented with questions and expected to answer them.   
+
+### Installation
+User can downloaded this package locally with 'git clone'
+```
+git clone git@github.com:delavdele/python-project-49.git
+```
+Let's change directory to the downloaded package and install it 
+```
+cd python-project-49
+make build 
+make install
+```
+After that try to run one of the following games:
+Game               | Description
+-------------------|----------------------
+brain-calc         | you need to calculate two numbers
+brain-even         | you need to determine which of the two numbers is even 
+brain-gcd          | you need to calculate and enter the greatest common divisor of these numbers
+brain-prime        | you need to determine which of the two numbers is prime
+brain-progressive  | you need to enter the number of an arithmetic progression 
+
+ 
+### Dependencies
+For these games to work you should have the following dependencies installed:
+* python3 
+* pip3 
+ 
+### Development
+ 
+tool            | Description
 ----------------|----------------------
 poetry          | "Python dependency management and packaging made easy"
 flake8          | "Your Tool For Style Guide Enforcement"
