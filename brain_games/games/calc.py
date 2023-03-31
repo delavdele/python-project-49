@@ -6,15 +6,15 @@ general_question = 'What is the result of the expression?'
 
 
 def play():
-    first_num = randint(0, 100)
-    second_num = randint(0, 100)
+    first = randint(0, 100)
+    second = randint(0, 100)
     operators = [
            ('+', operator.add),
            ('-', operator.sub),
            ('*', operator.mul),
     ]
-    operator_elements = choice(operators)
-    result = operator_elements[1](first_num, second_num)
-    expression = f'{first_num} {operator_elements[0]} {second_num}'
+    oper = choice(operators)
+    result = oper[1](first, second)
+    expression = f'{first} {oper[0]} {second}'
 
     return expression, str(result)
