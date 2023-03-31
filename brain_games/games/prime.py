@@ -6,11 +6,14 @@ general_question = (
 )
 
 
-def play():
-    question = randint(1, 100)
-    answer = 'yes'
+def is_prime(question):
     for number in range(2, question - 1):
         if question % number == 0:
-            answer = 'no'
+            return False
 
-    return str(question), answer
+    return True
+
+def play():
+    question = randint(1, 100)
+
+    return str(question), 'yes' if is_prime(question) else 'no'
