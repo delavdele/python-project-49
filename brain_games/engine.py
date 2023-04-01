@@ -1,9 +1,10 @@
 import prompt
-from brain_games.cli import welcome_user
 
 
 def run_game(game):
-    name = welcome_user()
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print('Hello, ' + name)
     print(game.general_question)
     tries = 3
     for _ in range(0, tries):

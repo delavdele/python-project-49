@@ -18,3 +18,13 @@ def get_question_and_answer():
         else:
             question += str(num1) + ' '
     return question, str(answer)
+
+
+def get_question_and_answer():
+    start = randint(1, 10)
+    step = randint(1, 10)
+    stop = start + 10 * step
+    random_index = randint(1, 11)
+    progression = list(range(start, start + 10 * step, step))
+    hidden_number = progression[random_index]
+    for n in range(start, stop, step):
