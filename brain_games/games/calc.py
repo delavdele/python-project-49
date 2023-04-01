@@ -5,13 +5,13 @@ import operator
 general_question = 'What is the result of the expression?'
 
 
-def play():
+def get_question_and_answer():
     first = randint(0, 100)
     second = randint(0, 100)
     operators = [
-           ('+', operator.add),
-           ('-', operator.sub),
-           ('*', operator.mul),
+        ('+', operator.add),
+        ('-', operator.sub),
+        ('*', operator.mul),
     ]
     oper = choice(operators)
     result = oper[1](first, second)

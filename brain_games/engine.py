@@ -7,7 +7,7 @@ def run_game(game):
     print(game.general_question)
     tries = 3
     for _ in range(0, tries):
-        question, answer = game.play()
+        question, answer = game.get_question_and_answer()
         print(f"Question: {question}")
         user_answer = prompt.string('Your answer: ')
         if answer == user_answer:

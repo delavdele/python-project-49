@@ -4,7 +4,7 @@ from random import randrange
 general_question = 'What number is missing in the progression?'
 
 
-def play():
+def get_question_and_answer():
     f_num = randint(1, 10)
     s_num = randint(1, 10)
     random_index = randrange(1, 11)

@@ -13,7 +13,8 @@ def is_prime(question):
 
     return True
 
-def play():
+
+def get_question_and_answer():
     question = randint(1, 100)
 
     return str(question), 'yes' if is_prime(question) else 'no'
